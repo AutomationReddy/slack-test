@@ -5,17 +5,25 @@
         <listener class-name="io.github.automationreddy.testng.TestNGSlackReporter"/>
     </listeners>
     <test verbose="2" preserve-order="true" name="Chrome Tests">
-<!--        <classes>-->
-<!--            <class name="org.example.LoginPageTests"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test verbose="2" preserve-order="true" name="Firefox Tests">-->
-<!--        <classes>-->
-<!--            <class name="org.example.LoginPageTests"/>-->
-<!--            <class name="org.example.HomePageTests"/>-->
-<!--        </classes>-->
-        <packages>
-            <package name="org.example"/>
-        </packages>
+        <classes>
+            <class name="org.example.LoginPageTests"/>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Firefox Tests">
+        <classes>
+            <class name="org.example.LoginPageTests"/>
+            <class name="org.example.HomePageTests"/>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Edge Tests">
+        <classes>
+            <class name="org.example.LoginPageTests"/>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Safari Tests">
+        <classes>
+            <class name="org.example.LoginPageTests"/>
+            <class name="org.example.HomePageTests"/>
+        </classes>
     </test>
 </suite>
