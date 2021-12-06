@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression in QA environment">
+    <listeners>
+        <listener class-name="io.github.automationreddy.testng.TestNGSlackReporter"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="Chrome Tests">
+<!--        <classes>-->
+<!--            <class name="org.example.LoginPageTests"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test verbose="2" preserve-order="true" name="Firefox Tests">-->
+<!--        <classes>-->
+<!--            <class name="org.example.LoginPageTests"/>-->
+<!--            <class name="org.example.HomePageTests"/>-->
+<!--        </classes>-->
+        <packages>
+            <package name="org.example"/>
+        </packages>
+    </test>
+</suite>
